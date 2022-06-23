@@ -1,5 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root{
+    --primary-color: #19BC9C;
+    --secondary-color: #2C3E50;
+    --footer-color: #3B546D;
+}
+
+.bkc_1{
+    background-color: var(--secondary-color) ;
+}
+
+.bkc_2, .btn-prim-color{
+    background-color: var(--primary-color);
+}
+
+.bkc_3{
+    background-color: var(--footer-color);
+}
+
+
+.box_main_img img{
+    width: 50%;
+}
+
+.box_main_img2 img{
+    width: 100%;
+}
+
+.just-cent{
+    justify-content: center;
 }
