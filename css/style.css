@@ -18,7 +18,7 @@
 
 
 .box_main_img img{
-    width: 50%;
+    width: 100%;
 }
 
 .box_main_img2 img{
@@ -28,3 +28,4 @@
 .just-cent{
     justify-content: center;
 }
+
