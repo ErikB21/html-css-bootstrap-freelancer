@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root{
     --primary-color: #19BC9C;
     --secondary-color: #2C3E50;
