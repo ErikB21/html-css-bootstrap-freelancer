@@ -20,10 +20,10 @@ body{
     background-color: var(--footer-color);
 }
 
+
 .color-text{
     color: var(--primary-color);
 }
-
 
 .box_main_img img{
     width: 100%;
@@ -44,5 +44,30 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+
+.box_main_img2{
+    position: relative;
+}
+
+.box_main_img2 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box_main_img2:hover i{
+    display: block !important;
+}
+
+.box_main_img2:hover .overlay{
+    opacity: 30%;
+}
+
+.hov_text:hover{
+    color: var(--primary-color);
 }
 
