@@ -8,12 +8,16 @@
     background-color: var(--secondary-color) ;
 }
 
-.bkc_2, .btn-prim-color{
+.bkc_2{
     background-color: var(--primary-color);
 }
 
 .bkc_3{
     background-color: var(--footer-color);
+}
+
+.color-text{
+    color: var(--primary-color);
 }
 
 
@@ -25,7 +29,16 @@
     width: 100%;
 }
 
-.just-cent{
-    justify-content: center;
+.circle-box, .square-box{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.circle-box i, .square-box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
