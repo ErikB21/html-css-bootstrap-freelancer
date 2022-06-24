@@ -46,8 +46,6 @@ body{
     transform: translate(-50%, -50%);
 }
 
-
-
 .box_main_img2{
     position: relative;
 }
@@ -58,6 +56,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*HOVER*/
 
 .box_main_img2:hover i{
     display: block !important;
