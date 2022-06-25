@@ -13,38 +13,34 @@
 </head>
 <body>
 
-    <header class="container-fluid bkc_1 py-1 sticky-top">
-        <div class="row">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bkc_1">
 
-            <div class="col-9 col-sm-6">
-                <div class="container">
-                    <div class="row py-1">
-                        <div class="col-12 text-light py-1">
-                            <h6 class="fw-bold">START BOOTSTRAP</h6>
-                        </div>
-                    </div>
-                </div>        
+            <div class="container">
+    
+              <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            
-            <div class="col-3 col-sm-6">
-                <div class="container">
-                    <div class="row text-center justify-content-end text-light py-sm-2">
-                        <div class="col-1 d-none d-sm-block col-sm-4">
-                            <h6 class="hov_text">PORTFOLIO</h6>
-                        </div>
-                        <div class="col-1 d-none d-sm-block col-sm-4">
-                            <h6 class="hov_text">ABOUT</h6>
-                        </div>
-                        <div class="col-1 d-none d-sm-block col-sm-4">
-                            <h6 class="hov_text">CONTACT</h6>
-                        </div>
-                        <div class="col-1 d-block d-sm-none text-end border border-light rounded py-2 square-box">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                    </div>
-                </div>    
-            </div>
-        </div>
+        </nav>
     </header>
 
     <main>
@@ -52,43 +48,37 @@
         <section class="container-fluid bkc_2 py-3">
             <div class="row p-2">
 
-                <div class="col-12 justify-content-center text-center text-light">
-                    <div class="container">
-                        <div class="row py-2 justify-content-center">
-                            <div class="col-8 col-md-6">
-                                <div class="box_main_img rounded-circle">
-                                    <img src="img/avatar.svg" alt="">
-                                </div>
-                            </div> 
+                <div class="container justify-content-center text-center text-light">
+                    <div class="row py-2 justify-content-center">
+                        
+                        <div class="col-8 col-md-6">
+                            <div class="box_main_img rounded-circle">
+                                <img src="img/avatar.svg" alt="">
+                            </div>
+                        </div> 
+                    
+                        <div class="col-12 my-2">
+                            <h2 class="fs-3 fw-bold roll-in-left">START BOOTSTRAP</h2>   
                         </div>
-
-                        <div class="row py-2">
-                            <div class="col-12">
-                                <h2 class="fs-3 fw-bold roll-in-left">START BOOTSTRAP</h2>   
-                            </div>
+                        
+                        <div class="col-2 col-sm-3 my-2">
+                            <div class="border border-bottom border-2 rounded border-light my-3"></div>
                         </div>
-
-                        <div class="row py-2 mb-2 justify-content-center">
-                            <div class="col-2 col-sm-3">
-                                <div class="border border-bottom border-2 rounded border-light my-3"></div>
-                            </div>
-                            <div class="col-2">
-                                <div class="ico-start">
-                                    <i class="fa-solid fa-star fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="col-2 col-sm-3">
-                                <div class="border border-bottom border-2 rounded border-light my-3"></div>
+                        <div class="col-2 my-2">
+                            <div class="ico-start">
+                                <i class="fa-solid fa-star fa-2x"></i>
                             </div>
                         </div>
-
-                        <div class="row py-2">
-                            <div class="col-12 d-flex justify-content-center">
-                                <span class="fon_siz">GRAPHIC ARTIST-</span>
-                                <span class="fon_siz">WEB DESIGNER-</span>     
-                                <span class="fon_siz">ILLUSTRATOR</span>          
-                            </div>
+                        <div class="col-2 col-sm-3 my-2">
+                            <div class="border border-bottom border-2 rounded border-light my-3"></div>
                         </div>
+                        
+                        <div class="col-12 d-flex justify-content-center py-2">
+                            <span class="fon_siz">GRAPHIC ARTIST-</span>
+                            <span class="fon_siz">WEB DESIGNER-</span>     
+                            <span class="fon_siz">ILLUSTRATOR</span>          
+                        </div>
+                        
                     </div>
                 </div>                   
             </div>
@@ -227,25 +217,25 @@
 
             <div class="row py-2 justify-content-center">
                 <div class="col-8">
-                    <div class="pb-2 mb-2 border-bottom">Name</div>
+                    <input class="form-control form-control-lg" type="text" placeholder="Name" aria-label=".form-control-lg example">
                 </div>
             </div>
 
             <div class="row py-2 justify-content-center">
                 <div class="col-8">
-                    <div class="pb-2 mb-2 border-bottom">Email Address</div>
+                    <input class="form-control form-control-lg" type="text" placeholder="Email Address" aria-label=".form-control-lg example">
                 </div>
             </div>
 
             <div class="row py-2 justify-content-center">
                 <div class="col-8">
-                    <div class="pb-2 mb-2 border-bottom">Phone Number</div>
+                    <input class="form-control form-control-lg" type="text" placeholder="Phone Number" aria-label=".form-control-lg example">
                 </div>
             </div>
 
             <div class="row justify-content-center">
                 <div class="col-8">
-                    <div class="pb-5 mb-3">Message</div>
+                    <textarea class="form-control form-control-lg" id="Textarea1" placeholder="Message" rows="5" aria-label=".form-control-lg example"></textarea>
                 </div>
             </div>
 
